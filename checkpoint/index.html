@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Checkpoint_1" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint_1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div class="checkpoint_1">
+
+        <div class="gridOne">
+            <p>Hello World</p>
+            <p class="p-blue">My Fantastic Content</p>
+        </div>
+
+        <div class="gridTwo">
+            <div class="yellow">
+                <p>La vida</p>
+            </div>
+
+            <div class="blue">
+                <p>es para</p>
+            </div>
+
+            <div class="red">
+                <p>Vivirla</p>
+            </div>
+        </div>
+
+        <div class="gridThree">
+            <div class="text-gridThree">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="image">
+                <img src="/Modulo 1/checkpoint/boliviainteligente-uf9qc_vaTS4-unsplash.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="gridFour">
+            <div class="text-gridFour">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div id="ID">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="gridFive">
+            <div class="text-gridFive">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="images">
+                <img src="/Modulo 1/checkpoint/boliviainteligente-YkZbwk9JZo0-unsplash.jpg" alt="">
+                <img src="/Modulo 1/checkpoint/boliviainteligente-Klyl3QEBhuc-unsplash.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="gridSix">
+            <div class="logo">
+                <i class="fa-solid fa-code fa-beat"></i>
+            </div>
+
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <h3>¿Cuáles son algunas de las cosas que hacen que SCSS sea diferente de CSS?</h3>
+            <div class="respuestas">
+                <p>Nos da la facilidad de que incluir variables o mixin, los cuales se repiten constantemente por todo el proyecto, esto a mayor escala se hace una forma mas simple de escribir el codigo y organizarlo, para que otros programadores lo puedan entender. Ademas hace que el programa sea mas ligero y cargue mas rapido.</p>
+                <p>Un ejemplo seria usar una variable para los cambios de color de todas las etiquetas un los posts, header, sin tener que hacerlo uno por uno.</p>
+            </div>
+
+            <div class="ejemplo">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <h3>¿Qué es una variable SCSS? (porque crees que debes utilizarla pon un ejemplo de una variable, escribe una variable y como se pondría para utilizarla)</h3>
+            <div class="respuestas">
+                <p>Una variable es un valor que se repite en varias partes del proyecto, podemos asignar una variable para cambiar un valor determinado en todas partes con una simple operacion, sin tener que pasar cambiando individualmente.</p>
+            </div>
+
+            <div class="ejemplo">
+                <p>$color_oscuro: black;</p>
+            
+                <p>.gridFour {
+                    color: $color_oscuro;
+                }</p>
+
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <h3>¿Qué es un SCSS Mixin? (porque crees que debes utilizarla pon un ejemplo de un mixin, escribiendo cómo se crea y como se pondría para utilizarla)</h3>
+            <div class="respuestas">
+                <p>El SCSS Mixin es una potente herramienta al momento de hacer el codigo mas corto y simple, ya que existen muchos varoles que se repiten de manera constante. Asi que es como tener una biblioteca de recursos que usamos frecuentemente en el proyecto</p>
+            </div>
+
+            <div class="ejemplo">
+                <p>@mixin grid-container() {
+                    display:grid;
+                    width: 500px;
+                    background-color: lightgray;
+                }
+                </p>
+                <p>
+                .gridFour {
+                    @include grid-container;
+                }
+                </p>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <h3>¿Qué significa Unidad fraccionaria (fr) con CSS Grid?</h3>
+            <div class="respuestas">
+                <p>La unidad de fraccionaria (fr) es la cantidad de filas y columnas que dividimos un espacio de trabajo como si se tratara de una tabla en excel, esto nos permite tener un control preciso de donde queremos trabajar en la tabla y asignarle ciertas reglas sobre su funcionamiento.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
